@@ -39,7 +39,7 @@ namespace MicroRabbit.Banking.Api
         }
 
         private void RegisterServices(IServiceCollection services)
-         {
+        {
             DependencyContainer.RegisterServices(services);
         }
 
